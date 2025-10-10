@@ -1,12 +1,22 @@
 # BIM LLM Code Agent
 
-This is BIM (Building Information Modeling) LLM Code Agent for the purpose of checking LLM Agent Performance as the viewpoint of complicated model like IFC and publishing paper. It is an open-source project that combines Building Information Modeling (BIM) with large language models (LLMs) to handle queries and automate tasks involving BIM files, IFC files. This tool streamlines reasoning, code generation, and analysis for BIM professionals, making it easier to interact with complex IFC BIM. This project is not perfect. In reference, It depends on various parameters like LLM type etc. Sometimes, it has hallucinations and sometimes it generates incomplete code. About these problem, it can be solved using [LLM Function Calls for AI Agents](https://github.com/mac999/AI_agent_simple_function_call) with LLM fine-tuning, [Graph RAG with Neo4j](https://github.com/mac999/BIM_graph_agent). If you wan to contribute this project, please pork and PR. 
+This is BIM (Building Information Modeling) LLM Code Agent for the purpose of checking LLM Agent Performance as the viewpoint of complicated model like IFC and publishing paper. It is an open-source project that combines Building Information Modeling (BIM) with large language models (LLMs) to handle queries and automate tasks involving BIM files, IFC files. This tool streamlines reasoning, code generation, and analysis for BIM professionals, making it easier to interact with complex IFC BIM. This project is not perfect. In reference, It depends on various parameters like LLM type etc. Sometimes, it has hallucinations and sometimes it generates incomplete code. About these problem, it can be solved using [LLM Function Calls for AI Agents](https://github.com/mac999/AI_agent_simple_function_call) with LLM fine-tuning, SQL RAG, [Graph RAG with Neo4j](https://github.com/mac999/BIM_graph_agent). If you wan to contribute this project, please pork and PR. 
 This requires more formal RAG handling and LLM usage.
 <div style="text-align: center;">
 <img src="https://github.com/mac999/BIM_LLM_code_agent/blob/main/doc/img2.JPG" height="350">
 <img src="https://github.com/mac999/BIM_LLM_code_agent/blob/main/doc/img1.gif" height="350">
 </div>
 </br>
+
+If you're interested in Graph database-based BIM agent development, refer to [Graph RAG with Neo4j](https://github.com/mac999/BIM_graph_agent).
+
+<p align="center">
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img1.jpg" height="200"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img3.jpg" height="200"> </img></br>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img9.jpg" height="255"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img7.jpg" height="255"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img8.jpg" height="255"> </img>
+</p>
 
 If you're interested in BIM data quality checker, refer to [here](https://github.com/mac999/BIM-quality-checker).
 
